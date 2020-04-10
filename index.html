@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+
+    <header>
+        <!--Titre page-->
+        <div id="title_first">
+            <div id="logo">
+                <img src="assets/img/boot.jpg" alt="Logo de bootstrap" />
+            </div>
+                <h1>Bootstrap</h1>    
+            </div>
+        <!--fin Titre page-->
+
+        <!--Navbar bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#logo">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#ex-1">Exercice-1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#ex-2">Exercice-2</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#ex-3">Exercice-3</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#ex-4">Exercice-4</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Rechercher" aria-label="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+              </form>
+            </div>
+          </nav>
+          <!--Fin navbar bootstrap-->
+    </header>
+
+       
+        <!--Exercice 1-->
+        <div class="container">
+
+          <div class="wrapper"></div>
+          
+            <div id="ex-1">
+        <h2>Exercice 1</h2>
+        <div class="row">
+        <div class="col bg-primary text-white text-center border ">BLOC 1</div>
+        <div class="col bg-primary text-white text-center border ">BLOC 2</div>
+        <div class="col bg-primary text-white text-center border ">BLOC 3</div>
+          </div>
+    </div>
+        <div class="wrapper"></div>
+        <!--Exercice 2-->
+            <div id="ex-2">
+        <h2>Exercice 2</h2>
+        <div class="row">
+          <div class="col-sm-4 bg-primary text-white text-center border">BLOC 1</div>
+          <div class="col-sm-4 bg-primary text-white text-center border">BLOC 2</div>
+          <div class="col-sm-4 bg-primary text-white text-center border">BLOC 3</div>
+          <div class="col-sm-2 bg-primary text-white text-center border">BLOC 4</div>
+          <div class="col-sm-2 bg-primary text-white text-center border">BLOC 5</div>
+          <div class="col-sm-4 bg-primary text-white text-center border">BLOC 6</div>
+          <div class="col-sm-4 bg-primary text-white text-center border">BLOC 7</div>
+          </div>
+          
+          </div>
+        <!--Exercice 3-->
+        <div class="wrapper"></div>
+
+            <div id="ex-3">
+        <h2>Exercice 3</h2>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 text-black text-center "><h3>Formations by "LA MANU"</h3></div>
+          <div class="col1 bg-primary text-white text-center border px-1"><h5>C#</h5></div>
+          <div class="col1 bg-primary text-white text-center border px-1"><h5>.NET</h5></div>
+        </div>
+    </div>
+
+       <div class="wrapper"></div>
+
+    <div id="ex-4">
+      <h2>Exercice 4</h2>
+      <div class="row justify-content-center">
+        <div class="col-sm-6 text-center ">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title ">La Manu Amiens</h4>
+          <p class="card-text ">L'école des métiers du numérique.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCentered">
+            + d'infos
+          </button>
+        </div>
+        </div>
+        <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal" id="exampleModalCentered" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenteredLabel">La Manu Amiens</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      https://lamanu.fr/amiens
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      </div>
+      
+    </div>
+
+  </div>
+        <footer></footer>
+
+    </body>
+
+</html>
